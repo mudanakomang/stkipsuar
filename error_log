@@ -1,0 +1,547 @@
+[06-Jan-2018 09:51:16 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 2
+[06-Jan-2018 09:51:22 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 2
+[06-Jan-2018 09:56:45 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 09:57:48 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 2
+[06-Jan-2018 09:57:48 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 09:57:50 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 2
+[06-Jan-2018 09:57:50 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 09:59:20 UTC] PHP Warning:  shell_exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 2
+[06-Jan-2018 09:59:20 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 09:59:20 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 4
+[06-Jan-2018 10:00:00 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 10:00:02 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 10:00:03 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[06-Jan-2018 10:00:05 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/stkm2646/public_html/exec.php on line 3
+[08-Jan-2018 06:19:41 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_STRING or T_VARIABLE or '$' in /home/stkm2646/public_html/index.php on line 50
+[08-Jan-2018 06:19:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_STRING or T_VARIABLE or '$' in /home/stkm2646/public_html/index.php on line 50
+[08-Jan-2018 06:20:05 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_STRING or T_VARIABLE or '$' in /home/stkm2646/public_html/index.php on line 50
+[08-Jan-2018 18:44:52 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_STRING or T_VARIABLE or '$' in /home/stkm2646/public_html/index.php on line 50
+[08-Jan-2018 18:45:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/stkm2646/public_html/index.php on line 50
+[08-Jan-2018 18:45:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 444
+[08-Jan-2018 18:45:12 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 444
+[09-Jan-2018 21:30:15 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:40:16 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:40:24 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:40:54 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:41:52 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:41:57 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:42:03 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:44:04 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:44:11 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:44:41 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:44:43 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:14 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:16 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:36 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:39 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:41 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:43 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:44 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:47 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:45:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:46:01 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:46:39 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:47:28 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:47:31 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:48:23 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:48:27 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:48:29 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:48:41 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:51:44 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:51:57 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 21:52:01 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:35:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:35:49 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:35:53 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:37:02 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:37:11 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:37:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:37:50 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:37:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:41:28 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 15:55:54 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:55:59 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:12 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:14 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:15 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:18 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:22 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:27 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 22:56:31 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 23:01:28 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 23:01:31 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Jan-2018 23:01:33 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class config does not exist' in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php( in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[12-Jan-2018 14:08:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/stkm2646/public_html/storage/framework/views/6abafa86ca71fe6f69b5c7c153c27c7a3c16c621.php on line 23
+[12-Jan-2018 14:08:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/stkm2646/public_html/storage/framework/views/6abafa86ca71fe6f69b5c7c153c27c7a3c16c621.php on line 23
+[12-Jan-2018 14:10:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/stkm2646/public_html/storage/framework/views/6abafa86ca71fe6f69b5c7c153c27c7a3c16c621.php on line 23
+[12-Jan-2018 14:11:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/stkm2646/public_html/storage/framework/views/6abafa86ca71fe6f69b5c7c153c27c7a3c16c621.php on line 23
+[13-Jan-2018 04:41:20 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/stkm2646/public_html/storage/framework/views/e681701bcf7d1cf74a5dbedbb5ccb9fa42777147.php on line 26
+[14-Jan-2018 14:16:04 UTC] PHP Fatal error:  Call to a member function addOption() on integer in /home/stkm2646/public_html/routes/web.php on line 101
+[14-Jan-2018 14:36:10 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/stkm2646/public_html/routes/web.php on line 100
+[14-Jan-2018 14:46:09 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Berita' not found in /home/stkm2646/public_html/app/Http/Controllers/AgendaController.php on line 11
+[15-Jan-2018 16:59:46 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 91
+[15-Jan-2018 16:59:59 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 91
+[15-Jan-2018 17:02:20 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 91
+[15-Jan-2018 21:47:19 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/e681701bcf7d1cf74a5dbedbb5ccb9fa42777147.php on line 27
+[15-Jan-2018 21:50:17 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[16-Jan-2018 07:59:54 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/e681701bcf7d1cf74a5dbedbb5ccb9fa42777147.php on line 27
+[16-Jan-2018 08:21:43 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[16-Jan-2018 18:23:32 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[16-Jan-2018 18:23:43 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/e681701bcf7d1cf74a5dbedbb5ccb9fa42777147.php on line 27
+[16-Jan-2018 20:00:12 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/e681701bcf7d1cf74a5dbedbb5ccb9fa42777147.php on line 27
+[16-Jan-2018 20:05:38 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[17-Jan-2018 23:35:54 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/e681701bcf7d1cf74a5dbedbb5ccb9fa42777147.php on line 27
+[18-Jan-2018 00:24:01 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[18-Jan-2018 04:40:30 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PengumumanController::getPengumuman() in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 16
+[19-Jan-2018 14:20:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\ProdiBits' not found in /home/stkm2646/public_html/app/Http/Controllers/PelatihanController.php on line 44
+[19-Jan-2018 14:27:26 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/stkm2646/public_html/storage/framework/views/eb423062b1f28747c2c2add0653193ea93c6fcf4.php on line 18
+[19-Jan-2018 14:47:39 UTC] PHP Parse error:  syntax error, unexpected 'functoion' (T_STRING), expecting variable (T_VARIABLE) in /home/stkm2646/public_html/app/Http/Controllers/PelatihanController.php on line 50
+[19-Jan-2018 22:26:27 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 27
+[21-Jan-2018 12:23:18 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 27
+[21-Jan-2018 12:23:36 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 27
+[21-Jan-2018 12:28:17 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 27
+[22-Jan-2018 15:08:51 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Carbon' not found in /home/stkm2646/public_html/app/Http/Controllers/GaleriController.php on line 42
+[22-Jan-2018 15:09:14 UTC] PHP Fatal error:  Class 'Carbon' not found in /home/stkm2646/public_html/app/Http/Controllers/GaleriController.php on line 43
+[22-Jan-2018 16:21:29 UTC] PHP Parse error:  syntax error, unexpected '"><img src="' (T_CONSTANT_ENCAPSED_STRING) in /home/stkm2646/public_html/storage/framework/views/eafe8d9c47fcedb172c5540ad3a46779569da60e.php on line 16
+[22-Jan-2018 17:51:02 UTC] PHP Parse error:  syntax error, unexpected 'endfor' (T_ENDFOR) in /home/stkm2646/public_html/storage/framework/views/8e4a4db81cee6ce703b9c105fea9ec8a4af15ea8.php on line 211
+[23-Jan-2018 03:56:47 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 27
+[23-Jan-2018 03:56:50 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 27
+[23-Jan-2018 16:06:34 UTC] PHP Fatal error:  Class '\App\FileUser' not found in /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasRelationships.php on line 487
+[23-Jan-2018 16:36:23 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/stkm2646/public_html/routes/web.php on line 135
+[23-Jan-2018 16:54:33 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/stkm2646/public_html/routes/web.php on line 135
+[23-Jan-2018 16:54:53 UTC] PHP Fatal error:  Class 'FileUser' not found in /home/stkm2646/public_html/routes/web.php on line 135
+[24-Jan-2018 14:54:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/stkm2646/public_html/app/Http/Controllers/DosenController.php on line 89
+[25-Jan-2018 03:03:18 UTC] PHP Fatal error:  Call to a member function delete() on null in /home/stkm2646/public_html/app/Http/Controllers/BeritaController.php on line 114
+[27-Jan-2018 06:27:05 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 68
+[27-Jan-2018 07:44:04 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 68
+[27-Jan-2018 07:44:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 68
+[27-Jan-2018 07:44:24 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 68
+[27-Jan-2018 07:44:38 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 68
+[27-Jan-2018 07:44:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 68
+[27-Jan-2018 09:59:35 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[27-Jan-2018 17:18:08 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 34
+[27-Jan-2018 17:18:41 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/stkm2646/public_html/storage/framework/views/98938027caabfef9f409dc9c40fef13c3138b320.php on line 34
+[28-Jan-2018 14:24:08 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: link' in /home/stkm2646/public_html/storage/framework/views/c8a0c85cd3924362b831d09c350bd09186e50bfc.php:30
+Stack trace:
+#0 /home/stkm2646/public_html/storage/framework/views/c8a0c85cd3924362b831d09c350bd09186e50bfc.php(30): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/stkm2646/...', 30, Array)
+#1 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/stkm2646/...')
+#2 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('storage/framewo...', Array)
+#3 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('resources/views...', Array)
+#4 /home/stkm2646/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(120): Illuminate\View\View->getContents()
+#5 / in /home/stkm2646/public_html/storage/framework/views/c8a0c85cd3924362b831d09c350bd09186e50bfc.php on line 30
+[28-Jan-2018 14:24:08 UTC] PHP Fatal error:  Cannot access empty property in /home/stkm2646/public_html/storage/framework/views/c8a0c85cd3924362b831d09c350bd09186e50bfc.php on line 30
+[29-Jan-2018 17:33:10 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 75
+[29-Jan-2018 17:33:54 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Pngumuman' not found in /home/stkm2646/public_html/app/Http/Controllers/PengumumanController.php on line 75
+[02-Feb-2018 16:53:08 UTC] PHP Fatal error:  Class 'CArbon\Carbon' not found in /home/stkm2646/public_html/storage/framework/views/d3b3b3f4435631115ffd386608cfc2278d000d34.php on line 27
+[03-Feb-2018 16:03:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/stkm2646/public_html/app/Http/Controllers/AlumniController.php on line 19
+[03-Feb-2018 16:10:55 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/stkm2646/public_html/storage/framework/views/ec510b29e05357d6e883ca0a9b3751f3053ed447.php on line 28
+[03-Feb-2018 16:11:18 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/stkm2646/public_html/storage/framework/views/ec510b29e05357d6e883ca0a9b3751f3053ed447.php on line 28
+[03-Feb-2018 16:12:12 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/stkm2646/public_html/storage/framework/views/ec510b29e05357d6e883ca0a9b3751f3053ed447.php on line 28
+[03-Feb-2018 16:12:48 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '(' in /home/stkm2646/public_html/storage/framework/views/ec510b29e05357d6e883ca0a9b3751f3053ed447.php on line 28
+[03-Feb-2018 16:18:38 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING), expecting ']' in /home/stkm2646/public_html/storage/framework/views/ec510b29e05357d6e883ca0a9b3751f3053ed447.php on line 28
+[04-Feb-2018 14:16:29 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/stkm2646/public_html/storage/framework/views/43a8be3c4025798243492c5a3a4722788baa00a0.php on line 19
+[04-Feb-2018 14:26:13 UTC] PHP Parse error:  syntax error, unexpected 'paginate' (T_STRING) in /home/stkm2646/public_html/app/Http/Controllers/AlumniController.php on line 17
+[06-Feb-2018 15:05:59 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Keterangan' not found in /home/stkm2646/public_html/app/Http/Controllers/KegiatanController.php on line 75
+[06-Feb-2018 15:49:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\FotoKegiatan' not found in /home/stkm2646/public_html/app/Http/Controllers/KegiatanController.php on line 113
+[06-Feb-2018 16:37:32 UTC] PHP Fatal error:  Call to a member function save() on integer in /home/stkm2646/public_html/app/Http/Controllers/KegiatanController.php on line 164
+[07-Feb-2018 00:13:43 UTC] PHP Fatal error:  Call to a member function toArray() on array in /home/stkm2646/public_html/app/Http/Controllers/KegiatanController.php on line 25
+[07-Feb-2018 00:14:49 UTC] PHP Fatal error:  Call to a member function toArray() on array in /home/stkm2646/public_html/app/Http/Controllers/KegiatanController.php on line 25
+[07-Feb-2018 00:16:24 UTC] PHP Fatal error:  Call to a member function toArray() on array in /home/stkm2646/public_html/app/Http/Controllers/KegiatanController.php on line 25
+[11-Feb-2018 13:08:04 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/stkm2646/public_html/storage/framework/views/9dd6ff7d00f565dd7ea41e470ed8d4522c4f715c.php on line 33
+[11-Feb-2018 13:48:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/stkm2646/public_html/storage/framework/views/17400cc29231eef5f9e3d115399da7c860d31856.php on line 33
+[11-Feb-2018 13:50:55 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/stkm2646/public_html/storage/framework/views/17400cc29231eef5f9e3d115399da7c860d31856.php on line 33
+[11-Feb-2018 14:54:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/stkm2646/public_html/storage/framework/views/17400cc29231eef5f9e3d115399da7c860d31856.php on line 72
+[12-Feb-2018 12:14:05 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/stkm2646/public_html/storage/framework/views/53f39c90d595d3b59ebbbd9ac0a206afda14ead6.php on line 47
+[13-Feb-2018 12:39:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/stkm2646/public_html/storage/framework/views/0418614b67b36e934018107b02b461d4fc3f4e5c.php on line 51
+[13-Feb-2018 12:40:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/stkm2646/public_html/storage/framework/views/0418614b67b36e934018107b02b461d4fc3f4e5c.php on line 51
+[13-Feb-2018 12:41:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/stkm2646/public_html/storage/framework/views/0418614b67b36e934018107b02b461d4fc3f4e5c.php on line 51
+[13-Feb-2018 14:57:57 UTC] PHP Fatal error:  Class 'Carbon' not found in /home/stkm2646/public_html/storage/framework/views/e891419b30f305489fcfd1209bdcd05d975aacf7.php on line 12
+[13-Feb-2018 15:13:38 UTC] PHP Parse error:  syntax error, unexpected 'judul' (T_STRING), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 4
+[13-Feb-2018 15:14:09 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:14:12 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:14:32 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:14:56 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:15:41 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:16:13 UTC] PHP Parse error:  syntax error, unexpected 'files' (T_STRING), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:16:48 UTC] PHP Parse error:  syntax error, unexpected 'judul' (T_STRING), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 4
+[13-Feb-2018 15:17:29 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 1
+[13-Feb-2018 15:18:22 UTC] PHP Parse error:  syntax error, unexpected 'judul' (T_STRING), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 4
+[13-Feb-2018 15:19:26 UTC] PHP Parse error:  syntax error, unexpected 'nama' (T_STRING), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 4
+[13-Feb-2018 15:20:03 UTC] PHP Parse error:  syntax error, unexpected 'nama' (T_STRING), expecting ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 4
+[23-Mar-2018 12:07:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 125
+[23-Mar-2018 12:09:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 125
+[23-Mar-2018 12:11:29 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/stkm2646/public_html/storage/framework/views/665aa97ffb1bc73c6b4146951c8240c96f824f1c.php on line 125
+[27-Jun-2019 16:32:15 Asia/Jakarta] PHP Notice:  Undefined index: mins in /home/stkm2646/public_html/wp-submit.php on line 11
+[27-Jun-2019 16:32:15 Asia/Jakarta] PHP Warning:  assert(): Assertion failed in /home/stkm2646/public_html/wp-submit.php on line 11
