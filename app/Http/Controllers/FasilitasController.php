@@ -10,6 +10,9 @@ use Validator;
 
 class FasilitasController extends Controller
 {
+    public function skripsi(Request $request){
+            return view('fasilitas.skripsi');
+    }
     public function section(Request $request){
         $section=str_slug($request->section,'-');
         $fas=\App\Fasilitas::all();

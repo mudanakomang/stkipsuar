@@ -25,6 +25,7 @@ Route::get('beranda',function(){
 Route::get('program-studi/p/{section}','ProgramStudi@section');
 Route::get('profil/p/{section}','ProfilController@section');
 Route::get('fasilitas/f/{section}','FasilitasController@section');
+Route::get('fasilitas/f/repos/skripsi','FasilitasController@skripsi');
 Route::get('akademik/kalender-akademik','KalenderController@index');
 Route::get('akademik/kalender-akademik/download','KalenderController@download');
 Route::get('akademik/pedoman-akademik','PedomanController@index');

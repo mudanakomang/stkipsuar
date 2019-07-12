@@ -77,7 +77,7 @@
                                 <li class="dropdown-submenu">
                                     <a class="test" href="#" aria-expanded="false">Repository STKIP Suar Bangli<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                      <li><a href="#">Skripsi</a></li>                                      
+                                    <li><a href="{{ url('fasilitas/f/repos/skripsi')}}">Skripsi</a></li>                                      
                                     </ul>
                                   </li>
 

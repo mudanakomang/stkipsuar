@@ -12,20 +12,20 @@
 
 
                         <header>
-                        <h3>{{ $fasilitas->attribute  }}</h3>
+                            <h3> Coming Soon </h3>
                         </header>
                         <article class="blog-entries">
                             <article class="meta">
                             <span class="date">
                                 <span class="fa fa-calendar"></span>
-                                {{ \Carbon\Carbon::createFromFormat('Y-m-d H:i:s',$fasilitas->publishdate)->format('d F Y') }}
+                               
                             </span>
                                 <hr>
                             </article>
                         </article>
 
                         <article style="font-size: 13px">
-                            {!!  ($fasilitas->value) !!}
+                           
                         </article>
 
                 </section>
