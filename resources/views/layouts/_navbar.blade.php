@@ -74,9 +74,12 @@
                                 </li>
                                 <li><a href="{{ url('fasilitas/f/beasiswa') }}">Beasiswa</a>
                                 </li>
-                                <li><a href="{{ url('fasilitas/f/repository') }}">Respository STKIP Suar bangli</a>
-                                </li>
-
+                                <li class="dropdown-submenu">
+                                    <a class="test" href="#" aria-expanded="false">Repository STKIP Suar Bangli<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">Skripsi</a></li>                                      
+                                    </ul>
+                                  </li>
 
                             </ul>
                         </li>
