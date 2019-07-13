@@ -37,7 +37,12 @@
                                 </li>
                                 <li><a href="{{ url('admin/fasilitas/1') }}">Fasilitas</a>
                                 </li>
-
+                                <li class="dropdown-submenu">
+                                    <a class="test" href="javascript: void(0)" aria-expanded="false">Repository<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="{{ url('admin/fasilitas/repos/skripsi')}}">Skripsi</a></li>                                      
+                                    </ul>
+                                  </li>            
                             </ul>
                         </li>
                         <li class="dropdown">
