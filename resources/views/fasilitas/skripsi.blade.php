@@ -31,7 +31,7 @@
                             <div class="form-group">
                                 {!! Form::label('tahun','Tahun',['class'=>'col-sm-4 control-label']) !!}
                                 <div class="col-sm-6">
-                                    {!! Form::text('tahun',null,['class'=>'form-control','placeholder'=>'Pilih Tahun']) !!}                                   
+                                    {!! Form::text('tahun',null,['class'=>'form-control','placeholder'=>'Pilih Tahun','autocomplete'=>'off']) !!}                                   
                                 </div>
                                 
                             </div>
