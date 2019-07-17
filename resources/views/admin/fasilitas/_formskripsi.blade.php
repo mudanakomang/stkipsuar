@@ -7,7 +7,7 @@
 <div class="form-group">
     {!! Form::label('judul','Judul',['class'=>'col-sm-2 control-label']) !!}
     <div class="col-sm-6">
-        {!! Form::text('judul',$skripsi->judul,['class'=>'form-control']) !!}
+        {!! Form::textarea('judul',$skripsi->judul,['class'=>'form-control']) !!}
         <span class="text-danger">{{ $errors->first('judul') }}</span>
     </div>
 </div>
@@ -77,18 +77,12 @@
         <span class="text-danger">{{ $errors->first('abstrak_file') }}</span>
     </div>
 </div>
+
 <div class="form-group">
-    {!! Form::label('bab1','Pilih File Pendahuluan',['class'=>'col-sm-2 control-label']) !!}
+    {!! Form::label('full','File Skripsi',['class'=>'col-sm-2 control-label']) !!}
     <div class="col-sm-8">
-        {!! Form::file('bab1') !!}
-        <span class="text-danger">{{ $errors->first('bab1') }}</span>
-    </div>
-</div>
-<div class="form-group">
-    {!! Form::label('bab5','Pilih File Kesimpulan/Saran',['class'=>'col-sm-2 control-label']) !!}
-    <div class="col-sm-8">
-        {!! Form::file('bab5') !!}
-        <span class="text-danger">{{ $errors->first('bab5') }}</span>
+        {!! Form::file('full') !!}
+        <span class="text-danger">{{ $errors->first('full') }}</span>
     </div>
 </div>
 <div class="form-group">

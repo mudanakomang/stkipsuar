@@ -17,7 +17,7 @@
 
             @endforeach
             <div class="panel-default">
-                <h2 class="text-center">Tambah Skripsi </h2>
+                <h2 class="text-center">Edit Skripsi </h2>
             </div>
             @include('admin.fasilitas._formskripsi')
 

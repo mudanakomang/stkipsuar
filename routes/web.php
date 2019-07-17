@@ -74,7 +74,10 @@ Route::group(['middleware'=>['auth','admin']],function (){
         Route::post('admin/fasilitas/edit', 'FasilitasController@edit');
         Route::get('admin/fasilitas/repos/skripsi','FasilitasController@admSkripsi');
         Route::get('admin/fasilitas/repos/skripsi/add','FasilitasController@admSkripsiAdd');
+        Route::get('admin/fasilitas/repos/skripsi/edit/{id}','FasilitasController@admSkripsiEdit');
         Route::post('admin/fasilitas/repos/skripsi/store','FasilitasController@storeSkripsi');
+        Route::post('admin/fasilitas/repos/skripsi/{id}/update','FasilitasController@skripsiUpdate');
+        Route::get('admin/fasilitas/repos/skripsi/delete/{id}','FasilitasController@deleteSkripsi');
         Route::get('admin/akademik/kalender-akademik', 'KalenderController@admin');
         Route::post('admin/kalender/tambah', 'KalenderController@create');
         Route::post('admin/akademik/kalender/hapus/{id}', 'KalenderController@hapus');

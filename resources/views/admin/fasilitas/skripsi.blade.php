@@ -37,7 +37,8 @@
                
                     <div class="col-lg-8 col-md-8 col-sm-12">
                         <i style="vertical-align: middle;padding-right: 4px" id=ico class='fa fa-3x fa-file-pdf-o'></i>
-                        <span id="text" style="font-size:1.8em;">{{ $item->judul }} |</span> <i> {{ $item->nama }}</i> <br>
+                    <span id="text" style="font-size:1.8em;">{{ $item->judul }} |</span> <i> {{ $item->nama }}</i> <a href="{{ url('admin/fasilitas/repos/skripsi/delete').'/'.$item->id }}" onclick="return confirm('Apakah anda yakin menghapus skripsi ini?');" class="text-danger"><i class="fa fa-2x fa-trash pull-right"></i></a> <a href="{{ url('admin/fasilitas/repos/skripsi/edit').'/'.$item->id }}"><i class="fa fa-2x fa-edit pull-right"></i></a>                     
+                    <br>
                         <span style="padding-top:2px;padding-bottom: 0px"><i>{{\Carbon\Carbon::parse($item->tgl_terbit)->format('d M Y')}}</i></span>
                         <hr style="border-top:1px dashed rgb(100,100,100);">     
                     </div>
