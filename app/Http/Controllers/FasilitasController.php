@@ -167,8 +167,19 @@ class FasilitasController extends Controller
         }
         
     }
-    public function skripsi(Request $request){
-            return view('fasilitas.skripsi');
+    public function skripsi(Request $request){ 
+        $tahun=\DB::select(\DB::raw('SELECT YEAR(tgl_terbit) as tahun FROM skripsi GROUP BY tahun ORDER BY tahun desc'));    
+        $skripsi=\App\Skripsi::when(!empty($request->program),function($q) use ($request){
+            $q->where('program','=',$request->program);
+        })->when(!empty($request->tahun),function($q) use ($request){
+            $q->whereRaw('year(tgl_terbit)='.$request->tahun);
+        })->paginate(15);
+            return view('fasilitas.skripsi',['skripsi'=>$skripsi,'tahun'=>$tahun]);
+    }
+    public function arsip($tahun){
+        $skripsi=\App\Skripsi::whereRaw('year(tgl_terbit)='.$tahun)->paginate(15);
+        $tahun=\DB::select(\DB::raw('SELECT YEAR(tgl_terbit) as tahun FROM skripsi GROUP BY tahun ORDER BY tahun desc limit 15'));    
+        return view('fasilitas.skripsi',['skripsi'=>$skripsi,'tahun'=>$tahun]);        
     }
     public function section(Request $request){
         $section=str_slug($request->section,'-');
