@@ -181,6 +181,21 @@ class FasilitasController extends Controller
         $tahun=\DB::select(\DB::raw('SELECT YEAR(tgl_terbit) as tahun FROM skripsi GROUP BY tahun ORDER BY tahun desc limit 15'));    
         return view('fasilitas.skripsi',['skripsi'=>$skripsi,'tahun'=>$tahun]);        
     }
+    public function detail($id){
+        $skripsi=\App\Skripsi::find($id);
+        $tahun=\DB::select(\DB::raw('SELECT YEAR(tgl_terbit) as tahun FROM skripsi GROUP BY tahun ORDER BY tahun desc limit 15'));
+        return view('fasilitas.detail',['skripsi'=>$skripsi,'tahun'=>$tahun]);
+    }
+    public function download($type,$id){
+        $skripsi=\App\Skripsi::find($id);
+        $pathToFileAbstrak=public_path().'/file/skripsi/'.$skripsi->abstrak_file;
+        $pathToFileFull=public_path().'/file/skripsi/'.$skripsi->full;
+        if($type=='abstrak'){
+            return  response()->download($pathToFileAbstrak);
+        } else{
+            return response()->download($pathToFileFull);
+        }
+    }
     public function section(Request $request){
         $section=str_slug($request->section,'-');
         $fas=\App\Fasilitas::all();

@@ -45,8 +45,8 @@
                         <hr>
                         @foreach($skripsi as $item)
                         <article class="blog-entries">
-                                <i style="vertical-align: middle;padding-right: 4px" id=ico class='fa fa-2x fa-file-pdf-o'></i>
-                                <span id="text" style="font-size:1.3em;">{{ $item->judul }}</span>
+                            <a href="{{ url('fasilitas/f/repos/skripsi/detail').'/'.$item->id }}">  <i style="vertical-align: middle;padding-right: 4px" id=ico class='fa fa-2x fa-file-pdf-o'></i>
+                               <span id="text" style="font-size:1.3em;">  {{ $item->judul }}</span></a>
                             <article class="meta">
                             <span class="date">
                                 <span class="fa fa-calendar"></span>

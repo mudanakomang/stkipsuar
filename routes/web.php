@@ -28,6 +28,8 @@ Route::get('fasilitas/f/{section}','FasilitasController@section');
 Route::get('fasilitas/f/repos/skripsi','FasilitasController@skripsi');
 Route::post('fasilitas/f/repos/skripsi','FasilitasController@skripsi');
 Route::get('fasilitas/f/repos/skripsi/arsip/{tahun}','FasilitasController@arsip');
+Route::get('fasilitas/f/repos/skripsi/detail/{id}','FasilitasController@detail');
+Route::get('fasilitas/f/repos/skripsi/download/{type}/{id}','FasilitasController@download');
 Route::get('akademik/kalender-akademik','KalenderController@index');
 Route::get('akademik/kalender-akademik/download','KalenderController@download');
 Route::get('akademik/pedoman-akademik','PedomanController@index');
